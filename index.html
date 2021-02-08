@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Find Meal For Your Ingredients</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<!-- body-part -->
+    <div class="container-fluid my-5">
+        <div class="row content-wrap">
+            <div class="col-sm-6">
+                <div class="input-group mb-3">
+                    <input id="searchMeal" type="text" class="form-control" placeholder="Search To  Find  Your Favourite Food" aria-label="Example text with button addon" aria-describedby="button-addon1" />
+
+                    <button id="btn" class="btn btn-primary" type="button">Search</button>
+                </div>
+            </div>
+        </div>
+      <div class="row">
+        <div class="col-sm-4">
+            <div id="showDetails" class=""></div>
+        </div>
+        <div class="col-md-9">
+            <h2 id="search-id" class="my-5">Your search Result:</h2>
+            <div id="foodIteam" class="notFound"></div>
+        </div>
+    </div>
+<!-- js-part -->
+    <script src="app.js"></script>
+  </body>
+</html>
